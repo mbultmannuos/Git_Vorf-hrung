@@ -4,7 +4,13 @@ public class Testclass {
 		System.out.println("Ausgabe");
 	}
 
+	public static void print(){
+		System.out.println("Hallo Welt");
+	}
+	
 	public static void main(String[] args) {
+		ausgabe();
+		print();
 		ausgabe();
 	}
 
